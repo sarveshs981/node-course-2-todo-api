@@ -45,10 +45,10 @@ Todo.findById(id).then((todo) => {
 
  res.send({todo});
 }).catch((e) => {
-  res.status(400).send();s
+  res.status(400).send();
 });
 
-})
+});
 app.listen(3000,() => {
   console.log('Started on port 3000');
 });
